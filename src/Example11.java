@@ -13,9 +13,9 @@ class Example11 {
 
 
         if (a > b) {
-            System.out.println(a);
+            System.out.println(b + "," + a);
         } else {
-            System.out.println(b);
+            System.out.println(a + "," + b);
         }
     }
 }
